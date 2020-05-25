@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>A concert of Flowers</title>
+</head>
+<body data-barba="wrapper">
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-white mx-5">
+    <a class="navbar-brand" href="index.html">A concert of Flowers</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item mx-1">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item mx-1">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main class="container-fluid main" data-barba="container" data-barba-namespace="home">
+    <div class="row covers justify-content-center">
+      <a href="01.html"><img src="https://via.placeholder.com/600x600" class="cov"/></a>
+      <a href="02.html"><img src="https://via.placeholder.com/600x600" class="cov"/></a>
+      <a href="03.html"><img src="https://via.placeholder.com/600x600" class="cov"/></a>
+      <a href="04.html"><img src="https://via.placeholder.com/600x600" class="cov"/></a>
+      <a href="05.html"><img src="https://via.placeholder.com/600x600" class="cov"/></a>
+    </div>
+    <div class="row titles justify-content-center">
+      <h1 class="col col-12 text-center"> July 12th, National Centre for the Performing Arts, Beijing</h1>
+      <h4 class="col col-12 text-center">A concert of Flowers</h4>
+      <p class="col col-7 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+    </div>
+
+  <footer>
+    <p class="text-center pt-5 copyr">&copy; Copyright 2020 Group 2. All Rights Reserved.</p>
+  </footer>
+</main>
+
+  <!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@barba/core@2.9.7/dist/barba.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@barba/css@2.1.15/dist/barba-css.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+<script type="module">
+barba.use(barbaCss);
+barba.init();
+</script>
+</body>
+</html>

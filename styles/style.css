@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300i,600i,700i|Raleway:600|Lora:400");
+
+html {
+  overflow-y: scroll;
+}
+
+body{
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.navbar-brand{
+  font-family: "Lora", Helvetica, sans-serif;
+}
+
+h1, h3{
+  font-family: "Lora", Helvetica, sans-serif;
+}
+
+h4{
+  font-family: "Lora", Helvetica, sans-serif;
+}
+
+.navbar{
+  min-height:80px;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.nav-item a {
+  text-transform: uppercase;
+}
+
+.photos img{
+  margin: 30px auto;
+  max-width:auto;
+  max-height:720px;
+}
+
+.main {
+  height: auto;
+  opacity:1;
+  transition: 0.6s ease-in-out;
+}
+
+.main .covers{
+  margin:10vh 5vw;
+  width: auto;
+}
+
+.covers a{
+  margin:0.5vw;
+}
+.covers img{
+  width:16vw;
+  height:16vw;
+}
+
+.main .covers .col{
+  margin: 1em;
+  height:40vh;
+  background-color: #ccc;
+}
+
+.titles p{
+  margin:10px auto;
+}
+
+.arrow {
+  opacity:0.3;
+}
+
+footer{
+  min-height:120px;
+  margin-top:50px;
+}
+
+div .main .col-3 {
+  background-color: grey;
+}
+
+.copyr{
+  font-size:9pt;
+}
+
+/* ABOUT */
+
+.about{
+
+}
+
+.concert{
+  height:100%;
+}
+
+.concert .row{
+  margin:2em 8em;
+}
+
+.col img{
+  width:100%;
+  height:auto;
+}
+
+.concert a{
+  font-size:21pt;
+  font-family: "Lora", Helvetica, sans-serif;
+  color:#dd6e6e;
+  transition: 200ms ease-in-out;
+}
+
+.concert a:hover{
+  color:#dd6e6e;
+  transition: 200ms ease-in-out;
+}
+
+.concert .description{
+  margin: 1vw 1em;
+}
+
+.credits{
+  height:100%;
+  margin-top:6em;
+}
+
+.credits .row{
+  margin:2em 8em;
+}
+
+.credits.col{
+
+}
+
+.credits .col p{
+  padding-top:10px;
+}
+
+.fade-out{
+  opacity:0;
+  transition: 0.6s ease-in-out;
+}
+
+.fade-in{
+  opacity:1;
+  transition: 0.6s ease-in-out;
+}
+
+.loading{
+  font-size:9pt;
+}
+
+/*AUDIO*/
+.audio-controls{
+  position:fixed;
+  bottom:30px;
+  right:2vw;
+}
+
+audio {
+  visibility:hidden;
+  position:fixed;
+  bottom:20px;
+  right: 20px;
+}
+
+/*BARBA*/
+.barba-leave-active,
+.barba-enter-active {
+  transition: opacity 600ms ease;
+}
+
+.barba-leave,
+.barba-enter-to {
+  opacity: 1;
+}
+
+.barba-enter,
+.barba-leave-to {
+  opacity: 0;
+}
