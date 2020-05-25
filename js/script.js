@@ -19,8 +19,8 @@ $(".vol").click(function(){
     isPlaying = !isPlaying
   });
 
-  song.oncanplaythrough = function() {
-    $(".loading").addClass("d-none");
-    $(".play").removeClass("d-none");
-    $(".vol").removeClass("d-none");
-};
+//   song.oncanplaythrough = function() {
+//     $(".loading").addClass("d-none");
+//     $(".play").removeClass("d-none");
+//     $(".vol").removeClass("d-none");
+// };
