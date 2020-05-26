@@ -63,6 +63,7 @@ h4{
 
 .titles p{
   margin:10px auto;
+  padding: 0 5vw;
 }
 
 .arrow {
@@ -176,4 +177,82 @@ audio {
 .barba-enter,
 .barba-leave-to {
   opacity: 0;
+}
+
+/*FLOWER*/
+
+.flower .col {
+  padding:0;
+}
+.flower .row{
+  margin:auto 3vw;
+}
+
+.flower{
+  margin-bottom:120px;
+}
+
+.emotion-1{
+
+}
+
+.flower p{
+  font-size:9pt;
+}
+
+#lt {
+  border-right: 1px solid #111;
+  border-bottom: 1px solid #111;
+}
+
+#lt img{
+  transform:scale(0);
+  transform-origin: bottom right;
+  animation: 1s ease-out 0s 1 scaleFlower;
+  animation-fill-mode: forwards;
+}
+
+#rt {
+  border-left: 1px solid #111;
+  border-bottom: 1px solid #111;
+}
+
+#rt img{
+  transform:scale(0);
+  transform-origin: bottom left;
+  animation: 1s ease-out 200ms 1 scaleFlower;
+  animation-fill-mode: forwards;
+}
+
+#lb {
+  border-left: 1px solid #111;
+  border-top: 1px solid #111;
+}
+
+#lb img{
+  transform:scale(0);
+  transform-origin: top left;
+  animation: 1s ease-out 400ms 1 scaleFlower;
+  animation-fill-mode: forwards;
+}
+
+#rb {
+  border-right: 1px solid #111;
+  border-top: 1px solid #111;
+}
+
+#rb img{
+  transform:scale(0);
+  transform-origin: top right;
+  animation: 1s ease-out 600ms 1 scaleFlower;
+  animation-fill-mode: forwards;
+}
+
+@keyframes scaleFlower {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
