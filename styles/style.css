@@ -106,29 +106,45 @@ div .main .col-3 {
   font-size:21pt;
   font-family: "Lora", Helvetica, sans-serif;
   color:#dd6e6e;
+  text-decoration-color: #dd6e6e;
   transition: 200ms ease-in-out;
 }
 
 .concert a:hover{
-  color:#dd6e6e;
+  color:#e78f8f;
+  text-decoration-color: #e78f8f;
   transition: 200ms ease-in-out;
 }
 
 .concert .description{
-  margin: 1vw 1em;
+  margin: 0 auto;
+  max-width:640px;
 }
 
 .credits{
   height:100%;
   margin-top:6em;
+  max-width:640px;
+  padding:0;
 }
 
 .credits .row{
-  margin:2em 8em;
+  /* margin:2em 8em; */
 }
 
-.credits.col{
+.credits .profiles{
+  height:100%;
+  margin:25px 0;
+}
 
+.credits .profiles img{
+  height:auto;
+  width:8vw;
+  max-width:100px;
+}
+
+.credits .profiles div{
+  margin-right:15px;
 }
 
 .credits .col p{
