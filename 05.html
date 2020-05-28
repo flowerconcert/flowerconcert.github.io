@@ -86,7 +86,7 @@
   </div>
   <div class="dl container-fluid">
     <div class="row justify-content-center">
-        <a href="pdf/mhsn_brochure.pdf" class="text-center" download>Download the brochure in PDF</a>
+        <a href="pdf/mhsn_brochure.pdf" class="text-center" data-barba-prevent>Download the brochure in PDF</a>
     </div>
 
   </div>
@@ -95,7 +95,7 @@
       <br/>Songs used for educational purpose only. All the rights to the respective owners.</p>
   </footer>
 
-  <div class="audio-controls text-right">
+  <!-- <div class="audio-controls text-right">
     <span class="play">
       <svg class="bi bi-pause" width="1.5vw" height="1.5vw" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
         <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z"/>
@@ -115,8 +115,8 @@
       </svg>
     </span>
     <p class="loading">Loading song...</p>
-  </div>
-  <audio controls autoplay id="song" preload="metadata">
+  </div> -->
+  <audio controls autoplay id="song" preload="metadata" controlsList="nodownload">
   <source src="audio/mhsn.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
