@@ -278,12 +278,17 @@ div .main .col-3 {
 }
 
 audio {
-  visibility:hidden;
+  /* visibility:hidden; */
   position:fixed;
-  bottom:20px;
-  right: 20px;
+  bottom:15px;
+  right: 15px;
+  width:225px;
+  animation: 500ms ease-out 0s 1 scaleFlower;
 }
 
+audio::-webkit-media-controls-timeline{
+  display:none;
+}
 /*BARBA*/
 .barba-leave-active,
 .barba-enter-active {
