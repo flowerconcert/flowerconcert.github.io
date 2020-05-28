@@ -7,20 +7,29 @@ $(".vol").click(function(){
   song.muted = !song.muted;
 });
 
+$(".play").click(function(){
+  if (isPlaying) {
+    song.pause();
+    $(".bi-pause").addClass("d-none");
+    $(".bi-play").removeClass("d-none");
+  } else {
+    song.play();
+    $(".bi-pause").removeClass("d-none");
+    $(".bi-play").addClass("d-none");
+  }
+  isPlaying = !isPlaying
+});
 
-  $(".play").click(function(){
-    $(".bi-pause").toggleClass("d-none");
-    $(".bi-play").toggleClass("d-none");
-    if (isPlaying) {
-      song.pause();
-    } else {
-      song.play();
-    }
-    isPlaying = !isPlaying
-  });
 
-//   song.oncanplaythrough = function() {
-//     $(".loading").addClass("d-none");
-//     $(".play").removeClass("d-none");
-//     $(".vol").removeClass("d-none");
-// };
+song.addEventListener("playing", function() {
+   $(".bi-pause").removeClass("d-none");
+   $(".bi-play").addClass("d-none");
+   isPlaying = true;
+ }, true);
+
+ song.addEventListener('canplay', (event) => {
+   $(".loading").addClass("d-none");
+   $(".bi-pause").addClass("d-none");
+   $(".bi-play").removeClass("d-none");
+   isPlaying = false;
+ });

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css">
+  <!-- <link rel="stylesheet" href="styles/01.css"> -->
+  <title>A concert of Flowers</title>
+</head>
+<body class="preload" data-barba="wrapper">
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-white mx-5">
+    <a class="navbar-brand" href="index.html">A concert of Flowers</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item mx-1">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item mx-1">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="barba-wrap" data-barba="container" data-barba-namespace="01">
+  <div class="container-fluid flower">
+    <div class="row justify-content-center">
+      <div class="col col-3 emo d-flex justify-content-end">
+        <div class="emotion-1 text-right align-self-center">
+          <h3>Tense: very low</h3>
+          <p>According to the spectral moment center equation, we can decompose the image or sound into different spectrum concepts. The frequency of the curve shaped spectrum is lower than that of the peak shaped spectrum, and the nervous mood shape presents the inverted V-shape, which expresses an inward tense mood, with a sharper and sharper contour.</p>
+        </div>
+      </div>
+      <div class="col col-3" id="lt">
+        <img src="img/flowers/zzd_tense.png" class="img-fluid mx-auto d-block petals" alt="">
+      </div>
+      <div class="col col-3" id="rt">
+        <img src="img/flowers/zzd_dark.png" class="img-fluid mx-auto d-block petals" alt="">
+      </div>
+      <div class="col col-3 emo d-flex justify-content-start">
+        <div class="emotion-2 text-left align-self-center">
+          <h3>Dark: mid</h3>
+          <p>Dark, as a mixture of negative emotions, presents a complete and full emotional shape, but the overall trend is downward and concave to the interior.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col col-3 emo d-flex justify-content-start">
+        <div class="emotion-3 text-right align-self-center">
+          <h3>Calm: mid</h3>
+          <p>Calm emotions convey a positive meaning, the ups and downs of the emotional curve are smaller, and the emotional shape is more complete and full.</p>
+        </div>
+      </div>
+      <div class="col col-3" id="lb">
+        <img src="img/flowers/zzd_calm.png" class="img-fluid mx-auto d-block petals" alt="">
+      </div>
+      <div class="col col-3" id="rb">
+        <img src="img/flowers/zzd_melancholic.png" class="img-fluid mx-auto d-block petals" alt="">
+      </div>
+      <div class="col col-3 emo d-flex justify-content-start">
+        <div class="emotion-4 text-left align-self-center">
+          <h3>Melancholic: low</h3>
+          <p>To a certain extent, melancholic mood has the dual meaning of negative and vigilance, and its shape is similar to the inverted triangle with sharp edge to show the fusion of negative emotions.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="row arrow justify-content-center my-5">
+      <svg class="bi bi-chevron-compact-down" width="3em" height="3em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
+      </svg>
+    </div> -->
+    <div class="row justify-content-center petals-overlay">
+      <img class="col col-6" src="img/flowers/radar.png" alt="">
+    </div>
+  </div>
+  <div class="container photos">
+    <img src="img/zzd_cover.png" class="img-fluid mx-auto d-block" alt="">
+    <img src="img/zzd_view1.png" class="img-fluid mx-auto d-block" alt="">
+    <img src="img/zzd_view2.png" class="img-fluid mx-auto d-block" alt="">
+    <img src="img/zzd_view3.png" class="img-fluid mx-auto d-block" alt="">
+  </div>
+  <div class="dl container-fluid">
+    <div class="row justify-content-center">
+        <a href="pdf/zzd_brochure.pdf" class="text-center" download>Download the brochure in PDF</a>
+    </div>
+
+  </div>
+  <footer>
+    <p class="text-center pt-5 copyr">INFORMATION DESIGN AND VISUALIZATION, SPRING 2020, Tongji University.
+      <br/>Songs used for educational purpose only. All the rights to the respective owners.</p>
+  </footer>
+
+  <div class="audio-controls">
+    <span class="play">
+      <svg class="bi bi-pause" width="1.5vw" height="1.5vw" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z"/>
+      </svg>
+      <svg class="bi bi-play d-none" width="1.5vw" height="1.5vw" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
+      </svg>
+  </span>
+    <span class="vol">
+      <svg class="bi bi-volume-down" width="1.5vw" height="1.5vw" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M8.717 3.55A.5.5 0 0 1 9 4v8a.5.5 0 0 1-.812.39L5.825 10.5H3.5A.5.5 0 0 1 3 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06zM8 5.04L6.312 6.39A.5.5 0 0 1 6 6.5H4v3h2a.5.5 0 0 1 .312.11L8 10.96V5.04z"/>
+        <path d="M10.707 11.182A4.486 4.486 0 0 0 12.025 8a4.486 4.486 0 0 0-1.318-3.182L10 5.525A3.489 3.489 0 0 1 11.025 8c0 .966-.392 1.841-1.025 2.475l.707.707z"/>
+      </svg>
+      <svg class="bi bi-volume-mute d-none" width="1.5vw" height="1.5vw" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06zM6 5.04L4.312 6.39A.5.5 0 0 1 4 6.5H2v3h2a.5.5 0 0 1 .312.11L6 10.96V5.04zm7.854.606a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708l4-4a.5.5 0 0 1 .708 0z"/>
+        <path fill-rule="evenodd" d="M9.146 5.646a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0z"/>
+      </svg>
+    </span>
+    <p class="loading">Loading song...</p>
+  </div>
+  <audio controls autoplay id="song" preload="metadata">
+  <source src="audio/zzd.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+  </div>
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@barba/core@2.9.7/dist/barba.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@barba/css@2.1.15/dist/barba-css.umd.min.js"></script>
+  <script src="js/script.js"></script>
+  <script type="module">
+  barba.use(barbaCss);
+  barba.init();
+  </script>
+</body>
+</html>

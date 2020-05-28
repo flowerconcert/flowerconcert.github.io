@@ -9,7 +9,7 @@
   <title>A concert of Flowers</title>
 </head>
 <body data-barba="wrapper">
-  <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-white mx-5">
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-white px-5">
     <a class="navbar-brand" href="index.html">A concert of Flowers</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -26,23 +26,38 @@
     </div>
   </nav>
   <main class="container-fluid main" data-barba="container" data-barba-namespace="home">
-    <div class="row covers justify-content-center">
-      <a href="01.html"><img src="https://via.placeholder.com/600x600" class="cov"/></a>
-      <a href="02.html"><img src="https://via.placeholder.com/600x600" class="cov"/></a>
-      <a href="03.html"><img src="https://via.placeholder.com/600x600" class="cov"/></a>
-      <a href="04.html"><img src="https://via.placeholder.com/600x600" class="cov"/></a>
-      <a href="05.html"><img src="https://via.placeholder.com/600x600" class="cov"/></a>
+    <div class="row first">
+      <div class="row titles justify-content-center align-self-center">
+        <h1 class="col col-12 text-center">Feel the charm of traditional music</h1>
+        <h4 class="col col-12 text-center"> January 20-25th, National Centre for the Performing Arts, Beijing</h4>
+        <p class="col col-7 text-center">A concert to discover and understand how emotions can give a shape to traditional music. <br/>Every <a href="">pre-order</a> will receive a copy of one of the booklets to enjoy during the concert.</p>
+      </div>
+      <div class="bg-scene">
+      <div class="container-fluid bg-vid">
+        <div class="container-fluid black-filter"></div>
+        <video width="100%" height="100%" autoplay loop>
+      <source src="https://i.imgur.com/t30VLZK.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+      </div>
+      </div>
     </div>
-    <div class="row titles justify-content-center">
-      <h1 class="col col-12 text-center">A concert of Flowers</h1>
-      <h4 class="col col-12 text-center"> July 12th, National Centre for the Performing Arts, Beijing</h4>
-      <p class="col col-7 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+    <div class="row cover-title justify-content-center">
+      <h1>Selected Songs</h1>
+    </div>
+    <div class="row covers justify-content-center">
+      <a href="01.html"><img src="img/liangzhu_cover.jpg" class="cov"/><p class="text-center cover-name">梁祝 Liang Zhu</p></a>
+      <a href="02.html"><img src="img/chansizhonggu_cover.jpg" class="cov"/><p class="text-center cover-name">禅寺钟鼓 Chan Si Zhong Gu</p></a>
+      <a href="03.html"><img src="img/zizhudiao_cover.jpg" class="cov"/><p class="text-center cover-name">紫竹调 Zi Zhu Diao</p></a>
+      <a href="04.html"><img src="img/jinshatan_cover.jpg" class="cov"/><p class="text-center cover-name">金沙滩 Jin Sha Tan</p></a>
+      <a href="05.html"><img src="img/meihuasannong_cover.jpg" class="cov"/><p class="text-center cover-name">梅花三弄 Mei Hua San Nong</p></a>
     </div>
 
-  <footer>
-    <p class="text-center pt-5 copyr">&copy; Copyright 2020 Group 2. All Rights Reserved.</p>
-  </footer>
-</main>
+    <footer>
+      <p class="text-center pt-5 copyr">INFORMATION DESIGN AND VISUALIZATION, SPRING 2020, Tongji University.
+        <br/>Background video from WU Promotion. Used for educational purpose only. All the rights to the respective owners.</p>
+    </footer>
+  </main>
 
   <!-- JS, Popper.js, and jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
