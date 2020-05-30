@@ -348,6 +348,13 @@ audio::-webkit-media-controls-timeline{
 #lt img{
   transform:scale(0);
   transform-origin: bottom right;
+  animation: 1s ease-out 0s 1 scaleFlower;
+  animation-fill-mode: forwards;
+}
+
+#ltb img{
+  transform:scale(0);
+  transform-origin: bottom right;
   animation: 1s ease-out 0s 1 scaleFlowerFix;
   animation-fill-mode: forwards;
 }
