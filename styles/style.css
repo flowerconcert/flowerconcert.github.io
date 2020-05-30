@@ -438,9 +438,9 @@ audio::-webkit-media-controls-timeline{
 
 @keyframes scaleFlowerFix {
   0% {
-    transform: scale(0);
+    transform: scale(0) translateX(0px);
   }
   100% {
-    transform: scale(0.72);
+    transform: scale(0.72) translateX(2px);
   }
 }
